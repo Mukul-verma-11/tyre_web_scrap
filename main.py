@@ -31,5 +31,5 @@ for page in range(1,pages+1):
 
 # print(len(data))
 df = pd.DataFrame(data)
-df.to_csv(f"Output_of_{pages}_pages.csv", index=False)
+df.to_csv("Output.csv", index=False)
 print("CSV file created successfully.")
